@@ -13,7 +13,7 @@ public class KafkaMessageProducer {
 	private static KafkaMessageProducer instance;
 
 	public static final String BOOTSTRAP_SERVER = "bootstrap.servers";
-	public static final String BOOTSTRAP_SERVER_IP = "172.26.20.114:9092";
+	public static final String BOOTSTRAP_SERVER_IP = "localhost:9092";
 	public static final String KEY = "key.serializer";
 	public static final String VALUE = "value.serializer";
 	public static final String KEY_SEARIALIZER = "org.apache.kafka.common.serialization.StringSerializer";
