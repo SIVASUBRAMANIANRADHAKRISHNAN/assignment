@@ -16,7 +16,7 @@
 		<netty.version>5.0.0.Alpha2</netty.version>
 		<junit.version>4.12</junit.version>
 	</properties>
-
+ 
 	<build>
 		<plugins>
 			<plugin>
