@@ -1,0 +1,10 @@
+syntax = "proto2";
+option java_package = "com.auzmor.protobuf";
+
+option java_outer_classname = "QueryProtoBuf";
+
+message QueryString {
+
+  required string var1 = 1;
+  
+}
